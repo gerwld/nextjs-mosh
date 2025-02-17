@@ -2,7 +2,7 @@
 
 const AddToCart = () => {
     return (
-        <button onClick={() => console.log("sfbd")}>ProductCard</button>
+        <button className="btn btn-primary" onClick={() => console.log("sfbd")}>ProductCard</button>
     )
 }
 
