@@ -5,10 +5,7 @@ interface IUser {
 }
 
 const UsersPage = async () => {
-    const res = await fetch("https://jsonplaceholder.typicode.com/users", {
-        cache:"no-store",
-        // next: {revalidate: 10} // 10 sec caching before revalidation
-    });
+    const res = await fetch("https://jsonplaceholder.typicode.com/users");
     const data: IUser[] = await res.json();
     return (
         <>
