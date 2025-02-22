@@ -1,4 +1,4 @@
-"use server"
+"use client"
 import AddToCart from "./AddToCart"
 
 const ProductCard = () => {
